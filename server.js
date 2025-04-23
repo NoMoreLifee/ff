@@ -84,7 +84,7 @@ app.get('/visit-with-cookies', (req, res) => {
 app.get('/', (req, res) => {
     res.send(`
         <h1>Visitor Counter API</h1>
-        <p>API is running! Use /visit endpoint to track visitors.</p>
+        <p>API is running! </p>
         <p>Current time: ${new Date().toISOString()}</p>
     `);
 });
